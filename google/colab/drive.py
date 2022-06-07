@@ -106,7 +106,7 @@ def mount(mountpoint, force_remount=False, timeout_ms=120000):
       mountpoint,
       force_remount=force_remount,
       timeout_ms=timeout_ms,
-      ephemeral=True)
+      ephemeral=False)
 
 
 def _mount(mountpoint, force_remount=False, timeout_ms=120000, ephemeral=False):
